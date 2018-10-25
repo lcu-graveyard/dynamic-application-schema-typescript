@@ -19,6 +19,10 @@
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0"
   },
+  "peerDependencies": {
+    "@fathym-forge/daf-schema-json": "0.0.3",
+    "@fathym-forge/daf-schema-protobuf": "0.0.6" 
+  },
   "devDependencies": {
     "@types/chai": "^4.1.0",
     "@types/mocha": "^5.2.4",
