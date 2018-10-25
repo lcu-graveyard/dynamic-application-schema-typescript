@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "npm run build:umd",
     "build-deploy": "npm version patch && npm run build && npm run deploy",
-    "build:umd": "vue-cli-service build --target lib --name dynamic-application-schema-typescript src/main.ts",
+    "build:umd": "vue-cli-service build --target lib --name daf-schema src/main.ts",
     "deploy": "npm publish --access public",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
