@@ -2,7 +2,7 @@
   "name": "@fathym-forge/daf-schema-typescript",
   "version": "0.0.6",
   "private": false,
-  "main": "dist/dynamic-application-schema.umd.js",
+  "main": "dist/dynamic-application-schema-typescript.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:umd",
@@ -20,7 +20,7 @@
     "vue-property-decorator": "^7.0.0"
   },
   "peerDependencies": {
-    "@fathym-forge/daf-schema-json": "0.0.3",
+    "@fathym-forge/daf-schema-json": "0.0.4",
     "@fathym-forge/daf-schema-protobuf": "0.0.6"
   },
   "devDependencies": {
