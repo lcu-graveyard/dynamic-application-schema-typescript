@@ -4,4 +4,6 @@ export class ThemeConfiguration {
     public Name?: string;
     
     public Theme?: { [key: string]: string | any };
+
+    public Variables?: { [key: string]: string };
 }
