@@ -2,8 +2,8 @@
   "name": "@fathym-forge/daf-schema-typescript",
   "version": "0.0.15",
   "private": false,
-  "main": "dist/daf-schema.common",
-  "typings": "dist/daf-schema.common",
+  "main": "dist/daf-schema.umd",
+  "typings": "dist/daf-schema.umd",
   "files": [
     "dist/*",
     "src/*",
