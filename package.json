@@ -3,6 +3,7 @@
   "version": "0.0.11",
   "private": false,
   "main": "dist/daf-schema.common",
+  "typings": "dist/daf-schema.common",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:umd",
