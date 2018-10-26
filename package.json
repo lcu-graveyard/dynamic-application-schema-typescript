@@ -2,7 +2,7 @@
   "name": "@fathym-forge/daf-schema-typescript",
   "version": "0.0.10",
   "private": false,
-  "main": "dist/daf-schema.common.js",
+  "main": "dist/daf-schema.common",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:umd",
