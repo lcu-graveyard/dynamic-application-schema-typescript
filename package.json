@@ -1,6 +1,6 @@
 {
   "name": "@fathym-forge/daf-schema-typescript",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "private": false,
   "main": "dist/daf-schema.umd",
   "typings": "dist/@fathym-forge/daf-schema-typescript",
