@@ -4,13 +4,6 @@
   "private": false,
   "main": "dist/daf-schema.umd",
   "typings": "dist/@fathym-forge/daf-schema-typescript",
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:umd && npm run build:bundle",
