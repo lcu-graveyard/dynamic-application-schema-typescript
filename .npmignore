@@ -1,1 +1,7 @@
 package-lock.json
+*.config.json
+.browserslistrc
+tsconfig.json
+tslint.json
+tests
+src
