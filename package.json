@@ -3,7 +3,7 @@
   "version": "0.0.18",
   "private": false,
   "main": "dist/daf-schema.umd",
-  "typings": "dist/daf-schema.umd",
+  "typings": "dist/@fathym-forge/daf-schema-typescript",
   "files": [
     "dist/*",
     "src/*",
@@ -13,9 +13,10 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "npm run build:umd",
+    "build": "npm run build:umd && build:bundle",
     "build-deploy": "npm version patch && npm run build && npm run deploy",
     "build:umd": "vue-cli-service build --target lib --name daf-schema src/main.ts",
+    "build:bundle": "vue-cli-service bundle-dts --removeSource",
     "deploy": "npm publish --access public",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
@@ -43,6 +44,7 @@
     "@vue/test-utils": "^1.0.0-beta.20",
     "chai": "^4.1.2",
     "typescript": "^3.0.0",
+    "vue-cli-plugin-ts-bundler": "0.0.3",
     "vue-template-compiler": "^2.5.17"
   }
 }
