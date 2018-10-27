@@ -3,7 +3,7 @@
   "version": "0.0.29",
   "private": false,
   "main": "dist/daf-schema.umd",
-  "types": "dist/@fathym-forge/daf-schema-typescript.d.ts",
+  "types": "dist/daf-schema.umd",
   "scripts": {
     "typings": "dist/@fathym-forge/daf-schema-typescript.d.ts",
     "serve": "vue-cli-service serve",
