@@ -3,8 +3,9 @@
   "version": "0.0.24",
   "private": false,
   "main": "dist/daf-schema.umd",
-  "typings": "dist/@fathym-forge/daf-schema-typescript.d.ts",
+  "typings": "dist/daf-schema.umd",
   "scripts": {
+    "typings": "dist/@fathym-forge/daf-schema-typescript.d.ts",
     "serve": "vue-cli-service serve",
     "build": "npm run build:umd && npm run build:bundle",
     "build-deploy": "npm version patch && npm run build && npm run deploy",

@@ -1,5 +1,7 @@
 package-lock.json
-*.config.json
+babel.config.json
+postcss.config.json
+vue.config.json
 .browserslistrc
 tsconfig.json
 tslint.json
