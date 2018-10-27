@@ -4,6 +4,12 @@
   "private": false,
   "main": "dist/daf-schema.common",
   "types": "dist/daf-schema.common",
+  "files": [
+    "dist/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "typings": "dist/@fathym-forge/daf-schema-typescript.d.ts",
     "serve": "vue-cli-service serve",
