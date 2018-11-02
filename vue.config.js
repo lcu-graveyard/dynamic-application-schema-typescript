@@ -6,5 +6,5 @@ module.exports = {
       libraryExport: 'default'
     }
   },
-  outputDir: path.resolve(__dirname, "./dist")
+  outputDir: path.resolve(__dirname, "./asdf")
 };

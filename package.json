@@ -12,7 +12,6 @@
     "README.md"
   ],
   "scripts": {
-    "typings": "dist/@fathym-forge/daf-schema-typescript.d.ts",
     "serve": "vue-cli-service serve",
     "build": "npm run build:lib",
     "build-deploy": "npm version patch && npm run build && npm run deploy",
